@@ -29,4 +29,17 @@
         android:onClick="testPermission"
         android:text="AOP测试权限"
         android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:onClick="preventClick"
+        android:text="拦截快速双击"
+        android:textColor="@android:color/white" />
 </LinearLayout>

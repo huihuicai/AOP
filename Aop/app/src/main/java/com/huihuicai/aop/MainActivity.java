@@ -3,19 +3,16 @@ package com.huihuicai.aop;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import android.hardware.Camera;
 import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.huihuicai.aspectj.annotation.LogAnnotation;
 import com.huihuicai.aspectj.annotation.PermissionAnnotation;
-import com.huihuicai.aspectj.log.LogUtil;
+import com.huihuicai.aspectj.annotation.SingleClick;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @PermissionAnnotation(permission = Manifest.permission.CAMERA)
-    public void testPermission() {
-        LogUtil.print("mainActivity", "testPermission");
+    public void testPermission(View view) {
+        Toast.makeText(this, "检查权限", Toast.LENGTH_SHORT).show();
     }
 
-    public void testPermission(View view) {
-        testPermission();
+    @SingleClick(millisecond = 1500)
+    public void preventClick(View view) {
+        Toast.makeText(this, "点我了", Toast.LENGTH_SHORT).show();
     }
 
     @Override
