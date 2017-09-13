@@ -42,4 +42,31 @@
         android:onClick="preventClick"
         android:text="拦截快速双击"
         android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_apt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:text="APT测试"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:onClick="wechat"
+        android:text="仿微信"
+        android:textColor="@android:color/white" />
 </LinearLayout>

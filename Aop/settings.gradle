@@ -1,1 +1,1 @@
-include ':app', ':aspectj', ':apt'
+include ':app', ':aspectj', ':apt-compiler', ':apt-finder', ':apt-annotation'

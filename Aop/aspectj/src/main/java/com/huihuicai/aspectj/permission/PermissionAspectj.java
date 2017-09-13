@@ -34,7 +34,6 @@ public class PermissionAspectj {
 
     @Around("executePermission()")
     public Object weaveJoinPoint(ProceedingJoinPoint joinPoint) throws Throwable {
-        LogUtil.print("permission", "weaveJoinPoint====");
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         PermissionAnnotation ann = signature.getMethod().getAnnotation(PermissionAnnotation.class);
         String permission = "";
