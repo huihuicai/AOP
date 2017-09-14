@@ -3,7 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aop.iml" filepath="$PROJECT_DIR$/Aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aop.iml" filepath="$PROJECT_DIR$/Aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apt-annotation/apt-annotation.iml" filepath="$PROJECT_DIR$/apt-annotation/apt-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apt-compiler/apt-compiler.iml" filepath="$PROJECT_DIR$/apt-compiler/apt-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apt-finder/apt-finder.iml" filepath="$PROJECT_DIR$/apt-finder/apt-finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aspectj/aspectj.iml" filepath="$PROJECT_DIR$/aspectj/aspectj.iml" />
       <module fileurl="file://$PROJECT_DIR$/aspectj/aspectj.iml" filepath="$PROJECT_DIR$/aspectj/aspectj.iml" />
     </modules>
   </component>
